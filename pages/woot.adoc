@@ -1,0 +1,22 @@
+https://saber.land[*Saber's website*] is built with Saber itself,
+brings AsciiDoc to Saber!
+
+Do you love Saber?
+
+++++
+<button @click="yes = true">
+  {{ yes ? 'thanks!' : 'yes' }}
+</button>
+++++
+
+++++
+<script>
+export default {
+  data() {
+    return {
+      yes: false
+    }
+  }
+}
+</script>
+++++

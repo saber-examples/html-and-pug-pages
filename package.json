@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "name": "saber-example",
+  "license": "MIT",
+  "dependencies": {
+    "asciidoctor": "^2.0.2",
+    "extract-sfc-blocks": "^0.0.1",
+    "saber-plugin-transformer-html": "^0.0.2",
+    "saber-plugin-transformer-pug": "^0.0.2",
+    "saber": "latest"
+  }
+}
